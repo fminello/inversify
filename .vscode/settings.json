@@ -1,0 +1,15 @@
+{
+  "window.title": "Inversify | POC${separator}${dirty}${activeEditorShort}${separator}${appName}",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "cSpell.words": [
+    "inversify",
+    "Shuriken"
+  ]
+}
