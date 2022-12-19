@@ -1,7 +1,7 @@
 import { expect, test } from '@jest/globals'
-import { myContainer } from '../src/inversify.config'
-import { TYPES } from '../src/types'
-import { Warrior } from '../src/interfaces'
+import { myContainer } from '@/basic/inversify.config'
+import { TYPES } from '@/basic/types'
+import { Warrior } from '@/basic/interfaces'
 
 const ninja = myContainer.get<Warrior>(TYPES.Warrior)
 

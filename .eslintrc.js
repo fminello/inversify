@@ -5,8 +5,7 @@ module.exports = {
     node: true
   },
   extends: 'standard-with-typescript',
-  overrides: [
-  ],
+  ignorePatterns: ['dist/', 'node_modules/'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
